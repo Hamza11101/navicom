@@ -1,8 +1,8 @@
 module.exports = (sequelize, DataTypes) => {
     const Reglement = sequelize.define("reglement", {
         type: {
-        type: DataTypes.STRING
-      },
+          type: DataTypes.STRING
+        },
       date: {
         type: DataTypes.STRING
       },

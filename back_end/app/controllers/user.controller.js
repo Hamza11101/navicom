@@ -46,7 +46,7 @@ exports.saveAll = (req, res) => {
                     montant: req.body.montant,
                     userId: data.id
                 }
-                res.send(data);
+                // res.send(data);
                 //save reglement in the db
                 Reglement.create(reglement)
             })

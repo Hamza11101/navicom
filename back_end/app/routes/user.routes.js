@@ -8,5 +8,5 @@ module.exports = app => {
     // Retrieve all users by name
     router.get("/", User.getUserByName);
    
-    app.use('/api/tutorials', router);
+    app.use('/api/navicom', router);
   };
